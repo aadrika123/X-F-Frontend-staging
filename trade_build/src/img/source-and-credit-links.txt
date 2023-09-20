@@ -1,0 +1,33 @@
+Source images  /src/img/avatar/..
+================
+avatar -     https://www.pexels.com/photo/man-in-red-polo-shirt-and-blue-denim-jeans-3777556/
+avatar2 -    https://www.pexels.com/photo/photo-of-man-wearing-green-jacket-3705262/
+avatar3 -    https://www.pexels.com/photo/man-in-blue-crew-neck-t-shirt-near-white-building-3981704/
+avatar4 -    https://www.pexels.com/photo/fashion-indoors-looking-straight-male-579822/
+avatar5 -    https://www.pexels.com/photo/close-up-photography-of-man-wearing-sunglasses-1212984/
+avatar6 -    https://www.pexels.com/photo/man-in-black-suit-holding-smartphone-and-sunglasses-3778527/
+avatar7 -    https://www.pexels.com/photo/woman-in-gray-blazer-sitting-by-the-table-with-laptop-computer-5717546/
+
+================
+Source images  /src/img/project/..
+================
+project 1 - https://www.pexels.com/photo/sign-abstract-arrow-display-1888032/
+project 2 - https://www.pexels.com/photo/my-secret-plan-to-rule-the-world-book-1765033/
+project 3 - https://www.pexels.com/photo/photo-of-purple-paper-clip-on-green-background-3690543/
+
+================
+Source images  /src/img/blog/..
+================
+blog 4 -     https://www.pexels.com/photo/woman-swiping-touchpad-on-macbook-pro-on-table-near-smartphone-and-mug-7358/ 
+bg profile    https://www.pexels.com/photo/worm-s-eye-view-photography-of-building-566305/
+
+================
+Source images  /src/img/products/..
+================
+https://www.pexels.com/@craytive
+
+================
+Source images  /src/img/svg/..
+================
+all svg images - https://www.manypixels.co/gallery/?page=1&style=flatline
+================   
