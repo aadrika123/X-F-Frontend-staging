@@ -86,6 +86,9 @@ app.get("/fines", (req, res) => {
 app.get("/fines/*", (req, res) => {
   res.sendFile(path.join(__dirname, "fines_build", "index.html"));
 });
+app.get("/liveDashboard", (req, res) => {
+  res.sendFile(path.join(__dirname, "rmsDashboard_build", "index.html"));
+});
 app.get("/liveDashboard/*", (req, res) => {
   res.sendFile(path.join(__dirname, "rmsDashboard_build", "index.html"));
 });
