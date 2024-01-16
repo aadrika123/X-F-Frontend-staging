@@ -1,1 +1,0 @@
-import{j as e}from"./index-QmcauDG8.js";function r(){return e.jsx(e.Fragment,{children:e.jsx("div",{className:"bg-gray-50 opacity-50 p-4 w-screen h-screen fixed top-0 left-0 flex justify-center items-center",style:{zIndex:1e3},children:e.jsx("h1",{className:"text-xl font-bold text-gray-900 opacity-100 text-center ",children:"Loading"})})})}export{r as L};
