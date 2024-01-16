@@ -22,6 +22,7 @@ app.use(express.static("tanker_admin_build"));
 app.use(express.static("grievance_build"));
 app.use(express.static("fines_build"));
 app.use(express.static("amc_tc_build"));
+app.use(express.static("rmsDashboard_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
