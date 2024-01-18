@@ -1,0 +1,1 @@
+import{j as o}from"./index-aWaQQ42f.js";import{a as t,b as e}from"./TextField-CwPCL7nw.js";function n({children:i,formik:r,className:m}){return o.jsx(t,{value:r,children:o.jsx(e,{onSubmit:r.handleSubmit,className:m,children:i})})}export{n as F};
