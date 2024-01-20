@@ -1,0 +1,5 @@
+<<<<<<<< HEAD:amc_tc_build/assets/useErrorFocusFields-XYTqANtB.js
+import{v as c}from"./index-Fccff64D.js";function i(t){var s=typeof t;return t!=null&&(s=="object"||s=="function")}var f=i;const E=c(f),F=()=>{const t=(o,e=[])=>{const r=Object.keys(o)[0];return E(o[r])?t(o[r],[...e,r]):[...e,r].join(".")};return{AutoFocusErrorField:({isValid:o,submitCount:e,isSubmitting:r,errors:u})=>{if(!o&&e!==0&&r){const n=t(u);window.document.getElementsByName(n).length&&window.document.getElementsByName(n)[0].focus()}}}},m=F;export{m as u};
+========
+import{v as c}from"./index-3al-Z4c_.js";function i(t){var s=typeof t;return t!=null&&(s=="object"||s=="function")}var f=i;const E=c(f),F=()=>{const t=(o,e=[])=>{const r=Object.keys(o)[0];return E(o[r])?t(o[r],[...e,r]):[...e,r].join(".")};return{AutoFocusErrorField:({isValid:o,submitCount:e,isSubmitting:r,errors:u})=>{if(!o&&e!==0&&r){const n=t(u);window.document.getElementsByName(n).length&&window.document.getElementsByName(n)[0].focus()}}}},m=F;export{m as u};
+>>>>>>>> 9a8f687b6fa788805ee879e179af010f7fe00d03:amc_tc_build/assets/useErrorFocusFields-xR4rH7_b.js
