@@ -1,0 +1,1 @@
+System.register(["./index-legacy-hzXVfvmT.js"],(function(n,t){"use strict";var u;return{setters:[function(n){u=n.u}],execute:function(){n("u",(function(n){var t=u().userRoutes,e=null==t?void 0:t.map((function(n){return null==n?void 0:n.pages})).flat(1);return{result:null==e?void 0:e.find((function(t){return t.route==n}))}}))}}}));
