@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="hi-IN">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/logo1.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fines & Penalties</title>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>  <!-- Don't remove this is for razor pay payment -->
+  <style>
+    #google_translate_element {
+      position: relative;
+      /* visibility: hidden; */
+      /* height: 4vh; */
+      top: 0;
+      left: 0;
+      width: -moz-max-content;
+      width: max-content;
+      background-color: #fff;
+      /* padding: 10px; */
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      z-index: 999;
+      /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); */
+      /* Add a subtle shadow */
+    }
+
+    /* Style the translate button */
+    #google_translate_element .goog-te-combo {
+      background-color: white;
+      /* Background color of the dropdown */
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 5px;
+      font-size: 16px;
+      border: 2px solid red;
+    }
+
+    /* Style the selected language text */
+    #google_translate_element .goog-te-combo-label {
+      color: #333;
+      border: 2px solid red;
+    }
+
+    /* Style the dropdown arrow */
+    #google_translate_element .goog-te-button-icon {
+      background-image: url('your-arrow-image-url.png');
+      /* Replace with your own image URL */
+      background-size: 20px 20px;
+      /* Adjust the size as needed */
+      background-repeat: no-repeat;
+      background-position: right center;
+      width: 20px;
+      /* Adjust the width and height to match the arrow image */
+      height: 20px;
+      position: relative;
+      top: 50%;
+      right: 5px;
+      transform: translateY(-50%);
+    }
+
+    #google_translate_element div:nth-child(1),
+    #google_translate_element div:nth-child(1)>*>* {
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding: 1px 5px;
+      /* border: 2px solid red; */
+    }
+
+    #google_translate_element .goog-te-menu-frame {
+      display: none !important;
+    }
+
+    @media screen and (min-width: 768px) {
+      #google_translate_element {
+        position: absolute;
+        top: 2%;
+        left: 50%;
+      }
+    }
+  </style>
+
+  <script type="module" crossorigin src="/assets/index-71152db0.js"></script>
+  <link rel="stylesheet" href="/assets/index-84a9ff5c.css">
+</head>
+
+<body>
+  <!-- <div id="google_translate_element"></div> -->
+  <div id="root"></div>
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          includedLanguages: 'en,hi', // Define the languages you want to allow (English and Hindi in this example)
+          // hl: 'hi' // Set the default language to Hindi ('hi')
+        },
+        'google_translate_element'
+      );
+    }
+  </script>
+  <script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  
+</body>
+
+</html>
