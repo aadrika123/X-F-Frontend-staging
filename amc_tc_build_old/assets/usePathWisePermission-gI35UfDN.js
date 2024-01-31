@@ -1,1 +1,0 @@
-import{u as t}from"./index-LINkHV4-.js";function a(r){const{userRoutes:n}=t(),o=n==null?void 0:n.map(s=>s==null?void 0:s.pages).flat(1);return{result:o==null?void 0:o.find(s=>s.route==r)}}export{a as u};
