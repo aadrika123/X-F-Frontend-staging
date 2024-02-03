@@ -1,1 +1,0 @@
-import{a as i}from"./ProjectApiList-66203203.js";const c=i.create();c.interceptors.response.use(t=>{var a;return console.log("data from axios interceptors....",t==null?void 0:t.data),(a=t==null?void 0:t.data)==null||a.authenticated,t.status===200&&t.data.success&&(t.data.message="Response modified!"),t},t=>Promise.reject(t));export{c as A};
