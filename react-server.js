@@ -24,6 +24,7 @@ app.use(express.static("fines_build"));
 app.use(express.static("amc_tc_build"));
 app.use(express.static("rmsDashboard_build"));
 app.use(express.static("market_app_build"));
+app.use(express.static("userControl_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -99,6 +100,12 @@ app.get("/daily-license-app", (req, res) => {
 });
 app.get("/daily-license-app/*", (req, res) => {
   res.sendFile(path.join(__dirname, "market_app_build", "index.html"));
+});
+app.get("/userControl", (req, res) => {
+  res.sendFile(path.join(__dirname, "userControl_build", "index.html"));
+});
+app.get("/userControl/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "userControl_build", "index.html"));
 });
 // start express server on port 80
 app.listen(80, () => {
