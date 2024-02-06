@@ -1,1 +1,0 @@
-System.register(["./index-legacy-Y77FFglo.js"],(function(n,u){"use strict";var t;return{setters:[function(n){t=n.u}],execute:function(){n("u",(function(n){var u,e=t(),r=null==e||null===(u=e.userRoutes)||void 0===u?void 0:u.map((function(n){return null==n?void 0:n.pages})).flat(1);return{result:null==r?void 0:r.find((function(u){return u.route==n}))}}))}}}));
