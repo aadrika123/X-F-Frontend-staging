@@ -25,6 +25,7 @@ app.use(express.static("amc_tc_build"));
 app.use(express.static("rmsDashboard_build"));
 app.use(express.static("market_app_build"));
 app.use(express.static("userControl_build"));
+app.use(express.static("advertisement-module_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -106,6 +107,12 @@ app.get("/userControl", (req, res) => {
 });
 app.get("/userControl/*", (req, res) => {
   res.sendFile(path.join(__dirname, "userControl_build", "index.html"));
+});
+app.get("/advertisement-module", (req, res) => {
+  res.sendFile(path.join(__dirname, "advertisement-module_build", "index.html"));
+});
+app.get("/advertisement-module/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "advertisement-module_build", "index.html"));
 });
 // start express server on port 80
 app.listen(80, () => {
