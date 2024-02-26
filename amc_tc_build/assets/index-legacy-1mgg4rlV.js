@@ -1,0 +1,1 @@
+System.register(["./index-legacy-7fZkzq3w.js","./react-legacy-B2uxfrw8.js","./index-legacy-vKsP2mIZ.js"],(function(e,t){"use strict";var n,i;return{setters:[function(e){n=e.j},null,function(e){i=e.P}],execute:function(){e("default",(function(){return n.jsx(i,{title:"Survey Edit",children:n.jsx("div",{children:"SurveyEdit"})})}))}}}));
