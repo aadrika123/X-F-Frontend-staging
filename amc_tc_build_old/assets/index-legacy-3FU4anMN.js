@@ -1,1 +1,0 @@
-System.register(["./index-legacy-YiRmWDYM.js","./react-legacy-cmOuVUdh.js","./index-legacy-HekKMfK8.js"],(function(e,t){"use strict";var n,i;return{setters:[function(e){n=e.j},null,function(e){i=e.P}],execute:function(){e("default",(function(){return n.jsx(i,{title:"Survey List",children:n.jsx("div",{children:"SurveyList"})})}))}}}));

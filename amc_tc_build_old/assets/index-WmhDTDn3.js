@@ -1,1 +1,0 @@
-import{j as r}from"./index-uaK6mKIl.js";import"./react-kJeE4wWB.js";import{P as t}from"./index-ORz3Q6Yy.js";function d(){return r.jsx(t,{title:"Survey Edit",children:r.jsx("div",{children:"SurveyEdit"})})}export{d as default};
