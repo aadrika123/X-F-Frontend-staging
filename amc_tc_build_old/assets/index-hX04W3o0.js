@@ -1,0 +1,1 @@
+import{j as r}from"./index-mOlw0zbc.js";import"./react-HXRlOr-l.js";import{P as t}from"./index-aRTBrINf.js";function o(){return r.jsx(t,{title:"Survey List",children:r.jsx("div",{children:"SurveyList"})})}export{o as default};
