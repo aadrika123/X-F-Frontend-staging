@@ -1,16 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo1.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard</title>
-    <script type="module" crossorigin src="/assets/index-7f49cd70.js"></script>
-    <link rel="stylesheet" href="/assets/index-97e80427.css">
-  </head>
-  <body class="font-sans text-base font-normal "
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo1.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Property | Akola Municipal Corporation</title>
+  <!-- <script type="text/javascript" src="https://www.google.com/jsapi"></script>s -->
+  <!-- <script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+  <script type="module" crossorigin src="/assets/index-208c929d.js"></script>
+  <link rel="stylesheet" href="/assets/index-56d22415.css">
+</head>
+
+<body class="font-sans text-base font-normal"
   style="background-color: #F6F5FF; overflow-x: hidden;height: 100vh;overflow-y: hidden;" id="body">
-    <div id="root"></div>
-    
-  </body>
+  <div id="root"></div>
+  <div id="modal"></div>
+  <button value="" id="printClick" onclick="printData()" style="visibility:hidden">print click</button>
+  <button id="hideButton" onclick="hidePrintButton()" style="visibility:hidden">hide button</button>
+  
+
+  <script>
+    const dummyText = "<nc>JUIDCO Property Payment Receipt</nc><br />" +
+      "<n>-----------------------------------------</n><br />" +
+      "<n>Date           :  </n><br />" +
+      "<n>POS ID         :  XXXXXXXXXXX</n><br />" +
+      "<n>Ward No.       :  </n><br />" +
+      "<n>Transaction No.:  </n><br />" +
+      "<n>Holding No.    :  </n><br />" +
+      "<n>Citizen Name    :  Talib con</n><br />" +
+      "<n>-----------------------------------------</n><br />" +
+      "<n>Amount Paid   :  </n><br />" +
+      "<n>Paid  Upto    :  </n><br />" +
+      "<n>Payment Mode  :  </n><br />" +
+      "<n>------------------------------------------</n><br />" +
+      "<n>TC Name        :   </n><br />" +
+      "<n>Mobile No.     :   </n><br />" +
+      "<n>Please keep this Bill For Future Reference</n><br />" +
+      "<n></n><br />" +
+      "<n></n><br />" +
+      "<n></n><br />" +
+      "<n></n><br />" +
+      "<n></n><br />"
+
+    function fun(event) {
+      event.preventDefault()
+      return "hello"
+    }
+
+    function printData() {
+      let printData = document.getElementById('printClick').value
+      // let printData =  dummyText 
+      AndroidInterface.btPrinter(printData)
+    }
+    function hidePrintButton() {
+      AndroidInterface.btPrinterHide()
+    }
+
+  </script>
+
+  <script type="text/javascript">
+    // google.load("elements", "1", {
+    //   packages: "transliterate"
+    // });
+
+    // function changeLanguage() {
+    //   var options = {
+    //     sourceLanguage:
+    //       google.elements.transliteration.LanguageCode.ENGLISH,
+    //     destinationLanguage:
+    //       [google.elements.transliteration.LanguageCode.HINDI],
+    //     shortcutKey: 'ctrl+g',
+    //     transliterationEnabled: true
+    //   };
+
+    //   // Create an instance on TransliterationControl with the required
+    //   // options.
+    //   var control =
+    //     new google.elements.transliteration.TransliterationControl(options);
+
+    //   // Enable transliteration in the textbox with id
+    //   // 'transliterateTextarea'.
+    //   control.makeTransliteratable(['transliterateTextarea']);
+    // }
+    // google.setOnLoadCallback(changeLanguage);
+  </script>
+
+</body>
+
 </html>
