@@ -116,5 +116,5 @@ app.get("/advertisement-module/*", (req, res) => {
 });
 // start express server on port 80
 app.listen(80, () => {
-  console.log("server started on port 80");
+  console.log("server starting on port 80");
 });
