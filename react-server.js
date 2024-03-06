@@ -15,7 +15,7 @@ app.use(express.static("citizen_build"));
 app.use(express.static("property_build"));
 app.use(express.static("water_build"));
 app.use(express.static("trade_build"));
-app.use(express.static("amcUserDashboard_build"));
+app.use(express.static("dashboard_build"));
 app.use(express.static("advertisement_build"));
 app.use(express.static("citizen_mb_build"));
 app.use(express.static("tanker_admin_build"));
@@ -35,11 +35,11 @@ app.get("/citizen/*", (req, res) => {
   res.sendFile(path.join(__dirname, "citizen_build", "index.html"));
 });
 
-app.get("/amcUserDashboard", (req, res) => {
-  res.sendFile(path.join(__dirname, "amcUserDashboard_build", "index.html"));
+app.get("/dashboard", (req, res) => {
+  res.sendFile(path.join(__dirname, "dashboard_build", "index.html"));
 });
-app.get("/amcUserDashboard/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "amcUserDashboard_build", "index.html"));
+app.get("/dashboard/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "dashboard_build", "index.html"));
 });
 app.get("/property", (req, res) => {
   res.sendFile(path.join(__dirname, "property_build", "index.html"));
@@ -115,6 +115,6 @@ app.get("/advertisement-module/*", (req, res) => {
   res.sendFile(path.join(__dirname, "advertisement-module_build", "index.html"));
 });
 // start express server on port 80
-app.listen(500, () => {
-  console.log("server started on port 500");
+app.listen(80, () => {
+  console.log("server started on port 80");
 });
