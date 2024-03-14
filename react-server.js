@@ -115,6 +115,6 @@ app.get("/advertisement-module/*", (req, res) => {
   res.sendFile(path.join(__dirname, "advertisement-module_build", "index.html"));
 });
 // start express server on port 80
-app.listen(80, () => {
-  console.log("server starting on port 80");
+app.listen(500, () => {
+  console.log("server starting on port 500");
 });
