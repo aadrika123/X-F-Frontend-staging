@@ -1,1 +1,0 @@
-import{j as o}from"./react-2b0b979a.js";import"./material-d4b16f21.js";import"./dateFns-d8bde0f9.js";import"./jspdfAutotable-996315cc.js";import"./mui-21ea0068.js";import"./reactEmotion-f996df66.js";import"./chart-475af344.js";const c=()=>o.jsx("div",{children:"GovDcbReport"});export{c as default};
