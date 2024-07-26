@@ -1,0 +1,1 @@
+.addButtonAnimation{animation:scaleAnimate 1.5s infinite ease-in;border-width:2px;border-style:solid;border-color:#ec601f;background-color:#e4682f;color:#fff}@keyframes scaleAnimate{0%{scale:.9}25%{scale:.95}50%{scale:1}75%{scale:.95}to{scale:.9}}
