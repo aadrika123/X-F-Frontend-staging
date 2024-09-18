@@ -1,0 +1,1 @@
+import{r,j as e,a1 as s}from"./index-b1cab297.js";function n(){const[t,a]=r.useState("upi://9031578239@paytm");return e.jsx(e.Fragment,{children:e.jsx("div",{className:"flex justify-center items-center",children:e.jsx(s,{url:t,size:"300"})})})}export{n as default};
