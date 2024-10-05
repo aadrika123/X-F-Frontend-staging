@@ -1,1 +1,0 @@
-import{j as t}from"./index-qgThShvL.js";import{a as s,b as a}from"./formik.esm-BnzrXcQN.js";function i({children:e,formik:r,className:o}){return t.jsx(s,{value:r,children:t.jsx(a,{onSubmit:r==null?void 0:r.handleSubmit,className:o,children:e})})}export{i as F};
