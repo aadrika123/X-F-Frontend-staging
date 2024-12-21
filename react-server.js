@@ -26,6 +26,7 @@ app.use(express.static("rmsDashboard_build"));
 app.use(express.static("market_app_build"));
 app.use(express.static("userControl_build"));
 app.use(express.static("advertisement-module_build"));
+app.use(express.static("heatmap_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -113,6 +114,12 @@ app.get("/advertisement-module", (req, res) => {
 });
 app.get("/advertisement-module/*", (req, res) => {
   res.sendFile(path.join(__dirname, "advertisement-module_build", "index.html"));
+});
+app.get("/heatmap", (req, res) => {
+  res.sendFile(path.join(__dirname, "heatmap_build", "index.html"));
+});
+app.get("/heatmap/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "heatmap_build", "index.html"));
 });
 // start express server on port 80
 app.listen(500, () => {
