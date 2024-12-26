@@ -27,6 +27,7 @@ app.use(express.static("market_app_build"));
 app.use(express.static("userControl_build"));
 app.use(express.static("advertisement-module_build"));
 app.use(express.static("heatmap_build"));
+app.use(express.static("amcUserDashboard_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -120,6 +121,12 @@ app.get("/heatmap", (req, res) => {
 });
 app.get("/heatmap/*", (req, res) => {
   res.sendFile(path.join(__dirname, "heatmap_build", "index.html"));
+});
+app.get("/amcUserDashboard", (req, res) => {
+  res.sendFile(path.join(__dirname, "amcUserDashboard_build", "index.html"));
+});
+app.get("/amcUserDashboard/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "amcUserDashboard_build", "index.html"));
 });
 // start express server on port 80
 app.listen(500, () => {
